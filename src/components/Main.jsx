@@ -19,7 +19,7 @@ export default function Main() {
               type="text"
               name="name"
               id="name"
-              placeholder="Waqar Ahmad"
+              placeholder="Rabiya Nisar"
             />
           </div>
           <div className="flex flex-col gap-2 my-5">
