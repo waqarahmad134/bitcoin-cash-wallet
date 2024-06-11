@@ -5,10 +5,13 @@ import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <>
-      <div className="text-white bg-black">
+      <div className="text-black bg-[#e7e7e7]">
         <div className="flex justify-between items-center gap-2 w-4/5 m-auto py-3">
           <div>
-            <img className="w-20" src="logo.png" alt="logo" />
+            <Link className="flex items-center justify-start gap-3" to={"/"}>
+              <img className="w-10" src="logo.png" alt="logo" />
+              <h1 className="text-lg">Bitcoin Cash Address</h1>
+            </Link>
           </div>
           <div className="w-80">
             <form className="relative">
